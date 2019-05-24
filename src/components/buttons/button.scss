@@ -1,0 +1,35 @@
+.btn {
+	&--home {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 75px;
+		width: 205px;
+		margin: 0 55px;
+		background-color: transparent;
+		color: $white;
+		font-family: $poppins;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 32px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		border: solid 3px $white;
+		cursor: pointer;
+		user-select: none;
+
+		&:hover {
+			color: $pink;
+			background-color: $white;
+		}
+	}
+
+	&--icon {
+		font-size: 32px;
+		color: $grey;
+
+		&:hover {
+			color: $pink;
+		}
+	}
+}

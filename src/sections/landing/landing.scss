@@ -1,0 +1,14 @@
+.landing {
+	background-color: $pink;
+	justify-content: space-between;
+	padding: 146px 0;
+
+	&__btn-row {
+		display: flex;
+	}
+
+	&:before {
+		content: '';
+		display: block;
+	}
+}

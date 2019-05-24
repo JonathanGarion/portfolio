@@ -1,0 +1,38 @@
+.content-block {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	h3 {
+		font-family: $poppins;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 23px;
+		text-transform: uppercase;
+		color: $grey;
+		padding-bottom: 20px;
+	}
+
+	p {
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 23px;
+		color: $grey;
+		padding: 0 0 30px;
+	}
+
+	&--italic {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 0 30px;
+		}
+
+		li {
+			font-style: italic;
+			line-height: 19px;
+			padding: 0 5px 5px 0;
+		}
+	}
+}

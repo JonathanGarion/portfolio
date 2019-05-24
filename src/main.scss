@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+//variables
+$pink: #FF1F6D;
+$grey: #2C2C2D;
+$white: #FFFFFF;
+
+$poppins: 'Poppins', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+
+* {
+	font-family: $roboto;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+html {
+	width: 100%;
+}
+
+.body {
+	width: 100%;
+	
+	&--noscroll {
+		overflow-y: hidden;
+	}
+}
+
+.section {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 70px calc(50% - 425px);
+}
+
+.heading {
+	&--1 {
+		font-family: $poppins;
+		font-weight: 800;
+		color: white;
+		font-size: 130px;
+		line-height: 213px;
+		user-select: none;
+	}
+}
+
+h1, h2, h3, .title {
+	font-family: $poppins;
+	font-weight: 800;
+}
+
+.dot {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+	p {
+		color: $grey;
+	}
+}
+
+a {
+	&:hover, &:link, &:active, &:visited {
+		text-decoration: none;
+	}
+}
+
+/* ----------------------------- */
+// * {
+// 	/* css debugger */
+// 	background: #000 !important;
+// 	color: #0f0 !important;
+// 	outline : 2px solid #f00;
+// }
+/* ----------------------------- */
