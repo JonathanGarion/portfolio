@@ -1,0 +1,82 @@
+{
+	"projects": [
+		{
+			"title"      : "Fairtrade Software Foundation Website",
+			"intro"      : "The Fair Trade Software Foundation website was in need of an update. The new design utilized horizontal scrolling instead of vertical in order to simulate the progression the foundation itself promotes.",
+			"explanation": "During development of the site, besides being the scrummaster, I was responsible for setting up the grid in which the content could be set up in a simple way. Besides that I optimized the overal styling of the site, also keeping in mind browser compatibility, and made it responsive.",
+			"link"       : "www.ftsf.eu",
+			"skills"     : [ "HTML", "CSS", "Scss", "Gulp", "JavaScript", "October CMS", "Scrummaster" ]
+
+		},
+		{
+			"title"      : "CodePamoja",
+			"intro"      : "For CodePamoja, an initiative where Dutch and Kenyan developers work together building software, I worked on creating their new website. I was responsible for converting the design to templates, keeping into account the browser compatibility and responsiveness, to then couple these to WordPress.",
+			"explanation": "Besides this I was also the scrum master of a team comprised of both Dutch and Kenyan members.",
+			"link"       : "http://www.codepamoja.com",
+			"skills"     : [ "HTML", "CSS", "Scss", "Grunt", "JavaScript", "WordPress", "Scrummaster" ]
+		},
+		{
+			"title"      : "Competa Website",
+			"intro"      : "",
+			"explanation": "When reworking the Competa website, I was responsible for converting the design into a theme that was WordPress compatible. Browser compatibility, user experience and responsiveness had a high priority.",
+			"link"       : "http://www.competa.com",
+			"skills"     : [ "HTML", "CSS", "Scss", "OxygenCSS", "Gulp", "WordPress" ]
+		},
+		{
+			"title"      : "FTSF Webshop",
+			"intro"      : "With all sold merchandise from the Fair Trade Software webshop, a portion will be donated to CodePamoja in order to train developers in Kenya in Agile software development.",
+			"explanation": "During development of the webshop I was, among other things, responsible for setting up the Front-End structure and converting the design to views. These were then made functional in the Vue.js framework. Besides that I was also scrum master of a team of Front-End developers in training.",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "Scss", "WebPack", "JavaScript", "Vue JS", "Scrummaster" ]
+		},
+		{
+			"title"      : "Headcount",
+			"intro"      : "Headcount is an application in which you can keep track of all the employees in a company, edit them and translate all the data into graphs. This is meant to help HR departments keep track of all kinds of useful information.",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "SCSS", "JavaScript", "MongoDB", "ExpressJS", "ReactJS", "Redux", "NodeJS", "WebPack" ]
+		},
+		{
+			"title"      : "HUGseat",
+			"intro"      : "HUGseat is a website where people can order customizable infra-red saunas designed to fit in nearly all homes.",
+			"explanation": "My main responsibility was adding last minute functionality to the menu and shopping cart, streamlining the shopping experience and cleaning up the CSS codebase. When the site was done I hooked up all necessary WordPress plugins and styled the email template.",
+			"link"       : "https://www.hugseat.io/",
+			"skills"     : [ "HTML", "CSS", "JQuery", "JavaScript", "WordPress" ]
+		},
+		{
+			"title"      : "Wegwijzer Zilveren Kruis",
+			"intro"      : "",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "SCSS", "WebPack", "JavaScript", "ReactJS", "NodeJS" ]
+		},
+		{
+			"title"      : "Zilveren Kruis",
+			"intro"      : "",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ]
+		},
+		{
+			"title"      : "ZieZo",
+			"intro"      : "",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ]
+		},
+		{
+			"title"      : "De Friesland Zorgverzekeraar",
+			"intro"      : "",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ]
+		},
+		{
+			"title"      : "ProLife",
+			"intro"      : "",
+			"explanation": "",
+			"link"       : "",
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ]
+		}
+	]
+}

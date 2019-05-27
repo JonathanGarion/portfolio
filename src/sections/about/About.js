@@ -24,6 +24,13 @@ class About extends Component {
 						lies in working with Sass and JavaScript, in order to get 
 						the best result in projects.
 					</ContentBlock>
+					<ContentBlock title={ "skills" } italic={ true }>
+						HTML, CSS, SASS, JavaScript, React, Grunt, Gulp, WebPack
+					</ContentBlock>
+					<ContentBlock title={ "let's connect" } italic={ false }>
+						<a href="https://github.com/JonathanGarion" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-alt"></i></a>
+						<a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square"></i></a>
+					</ContentBlock>
 				</div>
 			</section>
 		);

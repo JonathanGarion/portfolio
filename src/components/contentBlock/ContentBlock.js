@@ -9,13 +9,29 @@ class ContentBlock extends Component {
 	}
 
 	render() {
-		const { title, italic } = this.props;
+		const { title, italic, children, project } = this.props;
+
+		const setContent = () => {
+			if( project ) {
+				return (
+					<React.Fragment>
+						{ children }
+					</React.Fragment>
+				)
+			} else {
+				if(italic) {
+					return <ul>{ children }</ul>
+				} else {
+					return <p>{ children }</p>
+				}
+			}
+		}
+
 		return (
 			<article className={ `content-block ${italic ? 'content-block--italic' : ''}` }>
 				<h3>{ title }</h3>
 				{
-					italic ? <p>{ this.props.children }</p> :
-					<ul>{ this.props.children }</ul>
+					setContent()
 				}
 			</article>
 		);

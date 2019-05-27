@@ -1,4 +1,5 @@
 .about {
+	max-height: 100vh;
 
 	&__image {
 		width: 190px;
@@ -11,5 +12,36 @@
 		font-size: 34px;
 		line-height: 47px;
 		padding: 20px 0 70px;
+	}
+
+	&__content {
+		display: flex;
+		flex-flow: column wrap;
+		max-height: 700px;
+
+		.content-block {
+			width: 25%;
+
+			&:first-of-type {
+				width: 75%;
+				height: 100%;
+				padding-right: 60px;
+			}
+		}
+	}
+
+	a {
+		padding: 0 25px 0 0;
+		text-decoration: none;
+
+		i {
+			font-size: 32px;
+			color: $grey;
+
+			&:hover {
+				color: $pink;
+				cursor: pointer;
+			}
+		}
 	}
 }
