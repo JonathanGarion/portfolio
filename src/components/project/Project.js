@@ -5,12 +5,13 @@ class Project extends Component {
 	constructor() {
 		super();
 		this.state = {
-			
+			open: false
 		}
 	}
 
 	render() {
 		const { data } = this.props;
+		const { open } = this.state;
 
 		const getSkills = () => {
 			let skillList = [];
@@ -39,22 +40,34 @@ class Project extends Component {
 			}
 		}
 
+		const toggleProject = () => {
+			if( open ) {
+				this.setState({
+					open: false
+				})
+			} else {
+				this.setState({
+					open: true
+				})
+			}
+		}
+
 		return (
-			<article className="project">
+			<section className={`project project__${open ? 'open' : 'closed'}`} style={{ backgroundImage: `url(${ data.img })` }}>
 				<ContentBlock title={ data.title } italic={ false } project={ true }>
 					{ hasContent(data.intro) ? <p>{ data.intro }</p> : null }
 					{ hasContent(data.explanation) ? <p>{ data.explanation }</p> : null }
 					{
 						hasContent(data.link)
-						?<a className="project__link" href={ data.link }>{ data.link }</a>
+						?<a className="project__link" href={ data.link } target="_blank" rel="noopener noreferrer">{ data.link }</a>
 						:null
 					}
 				</ContentBlock>
 				<ContentBlock title={ "used skills" } italic={ true }>
 					{ getSkills() }
 				</ContentBlock>
-				<img className="project__image" scr="" alt="" />
-			</article>
+				<button className="project__button" onClick={ e => toggleProject() }></button>
+			</section>
 		);
 	}
 }

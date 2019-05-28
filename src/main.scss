@@ -6,6 +6,7 @@
 $pink: #FF1F6D;
 $grey: #2C2C2D;
 $white: #FFFFFF;
+$black: #000000;
 
 $poppins: 'Poppins', sans-serif;
 $roboto: 'Roboto', sans-serif;
@@ -38,7 +39,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 70px calc(50% - 425px);
+	padding: 70px calc(50% - 450px);
 }
 
 .heading {
