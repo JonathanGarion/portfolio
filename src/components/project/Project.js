@@ -12,6 +12,7 @@ class Project extends Component {
 	render() {
 		const { data } = this.props;
 		const { open } = this.state;
+		const body = document.getElementsByTagName("BODY");
 
 		const getSkills = () => {
 			let skillList = [];
@@ -42,10 +43,12 @@ class Project extends Component {
 
 		const toggleProject = () => {
 			if( open ) {
+				body[0].classList.remove('noscroll')
 				this.setState({
 					open: false
 				})
 			} else {
+				body[0].classList.add('noscroll')
 				this.setState({
 					open: true
 				})

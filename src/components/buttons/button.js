@@ -12,9 +12,9 @@ class Button extends Component {
 		const { buttonText, buttonLink, buttonType } = this.props
 
 		return (
-			<button className={ `btn ${ buttonType ? `btn--${buttonType}`: '' } `} href={`${buttonLink}`}>
+			<a className={ `btn ${ buttonType ? `btn--${buttonType}`: '' } `} href={ buttonLink }>
 				{ buttonText }
-			</button>
+			</a>
 		);
 	}
 }

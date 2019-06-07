@@ -50,10 +50,10 @@
 		},
 		{
 			"title"      : "Wegwijzer Zilveren Kruis",
-			"intro"      : "",
-			"explanation": "",
+			"intro"      : "Wegwijzer is a tool designed for the onboarding at Zilveren Kruis. It shows a collection of topics that are relevant to new customers, that can then be saved for future reference.",
+			"explanation": "During this project I was responsible for creating and styling components, as well as adding functionality to the application.",
 			"link"       : "https://www.zilverenkruis.nl",
-			"skills"     : [ "HTML", "CSS", "SCSS", "WebPack", "JavaScript", "ReactJS", "NodeJS" ],
+			"skills"     : [ "HTML", "CSS", "SCSS", "WebPack", "JavaScript", "ReactJS", "NodeJS", "contextAPI" ],
 			"img"        : "/img/project-wegwijzer.jpg"
 		},
 		{

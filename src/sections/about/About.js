@@ -12,7 +12,7 @@ class About extends Component {
 
 	render() {
 		return (
-			<section className="section about">
+			<section className="section about" id="about">
 				<img className="about__image" src="/img/hoofd.png" alt="mooiejongen" />
 				<h2 className="about__title">Nice to meet you!</h2>
 				<div className="about__content">

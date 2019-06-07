@@ -1,6 +1,10 @@
 .about {
 	max-height: 100vh;
 
+	@media screen and (max-width: 475px) {
+		max-height: unset;
+	}
+
 	&__image {
 		width: 190px;
 		height: 190px;
@@ -12,6 +16,11 @@
 		font-size: 34px;
 		line-height: 47px;
 		padding: 20px 0 70px;
+
+		@media screen and (max-width: 475px) {
+			padding: 20px 0 32px;
+			align-self: flex-start;
+		}
 	}
 
 	&__content {
@@ -26,7 +35,26 @@
 				width: 75%;
 				height: 100%;
 				padding-right: 60px;
+
+				@media screen and (max-width: 475px) {
+					width: 100%;
+					height: auto;
+					padding: 0;
+				}
 			}
+
+			@media screen and (max-width: 475px) {
+				width: 100%;
+				padding: 0;
+			}
+		}
+
+		
+		@media screen and (max-width: 475px) {
+			flex-wrap: nowrap;
+			align-items: center;
+			height: auto;
+			max-height: auto;
 		}
 	}
 
