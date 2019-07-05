@@ -13,7 +13,7 @@ class About extends Component {
 	render() {
 		return (
 			<section className="section about" id="about">
-				<img className="about__image" src="/img/hoofd.png" alt="mooiejongen" />
+				<img className="about__image" src="/img/pfp.png" alt="mooiejongen" />
 				<h2 className="about__title">Nice to meet you!</h2>
 				<div className="about__content">
 					<ContentBlock title={ "my story" } italic={ false }>
@@ -22,7 +22,12 @@ class About extends Component {
 						My specialties are in styling and UX to make the most out 
 						of the user interaction of web applications. My preference 
 						lies in working with Sass and JavaScript, in order to get 
-						the best result in projects.
+						the best result in projects. <br />
+						<br />
+						Currently employed by:
+						<a href="https://www.saxum.nl" target="_blank" rel="noopener noreferrer">
+							<b> Saxum</b>
+						</a>
 					</ContentBlock>
 					<ContentBlock title={ "skills" } italic={ true }>
 						HTML, CSS, SASS, JavaScript, React, Grunt, Gulp, WebPack

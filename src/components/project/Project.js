@@ -65,6 +65,7 @@ class Project extends Component {
 						?<a className="project__link" href={ data.link } target="_blank" rel="noopener noreferrer">{ data.link }</a>
 						:null
 					}
+					<p>Employed and commissioned by: <b>{ data.employer }</b></p>
 				</ContentBlock>
 				<ContentBlock title={ "used skills" } italic={ true }>
 					{ getSkills() }

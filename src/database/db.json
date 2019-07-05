@@ -1,6 +1,7 @@
 {
 	"projects": [
 		{
+			"employer"   : "Competa",
 			"title"      : "Fairtrade Software Foundation Website",
 			"intro"      : "The Fair Trade Software Foundation website was in need of an update. The new design utilized horizontal scrolling instead of vertical in order to simulate the progression the foundation itself promotes.",
 			"explanation": "During development of the site, besides being the scrummaster, I was responsible for setting up the grid in which the content could be set up in a simple way. Besides that I optimized the overal styling of the site, also keeping in mind browser compatibility, and made it responsive.",
@@ -9,6 +10,7 @@
 			"img"        : "/img/project-ftsf.jpg"
 		},
 		{
+			"employer"   : "Competa",
 			"title"      : "CodePamoja",
 			"intro"      : "For CodePamoja, an initiative where Dutch and Kenyan developers work together building software, I worked on creating their new website. I was responsible for converting the design to templates, keeping into account the browser compatibility and responsiveness, to then couple these to WordPress.",
 			"explanation": "Besides this I was also the scrum master of a team comprised of both Dutch and Kenyan members.",
@@ -17,6 +19,7 @@
 			"img"        : "/img/project-codepamoja.jpg"
 		},
 		{
+			"employer"   : "Competa",
 			"title"      : "Competa Website",
 			"intro"      : "",
 			"explanation": "When reworking the Competa website, I was responsible for converting the design into a theme that was WordPress compatible. Browser compatibility, user experience and responsiveness had a high priority.",
@@ -25,6 +28,7 @@
 			"img"        : "/img/project-competa.jpg"
 		},
 		{
+			"employer"   : "Competa",
 			"title"      : "FTSF Webshop",
 			"intro"      : "With all sold merchandise from the Fair Trade Software webshop, a portion will be donated to CodePamoja in order to train developers in Kenya in Agile software development.",
 			"explanation": "During development of the webshop I was, among other things, responsible for setting up the Front-End structure and converting the design to views. These were then made functional in the Vue.js framework. Besides that I was also scrum master of a team of Front-End developers in training.",
@@ -33,6 +37,7 @@
 			"img"        : "/img/project-webshop.jpg"
 		},
 		{
+			"employer"   : "Competa",
 			"title"      : "Headcount",
 			"intro"      : "Headcount is an application in which you can keep track of all the employees in a company, edit them and translate all the data into graphs. This is meant to help HR departments keep track of all kinds of useful information.",
 			"explanation": "",
@@ -41,6 +46,7 @@
 			"img"        : "/img/project-headcount.jpg"
 		},
 		{
+			"employer"   : "Competa",
 			"title"      : "HUGseat",
 			"intro"      : "HUGseat is a website where people can order customizable infra-red saunas designed to fit in nearly all homes.",
 			"explanation": "My main responsibility was adding last minute functionality to the menu and shopping cart, streamlining the shopping experience and cleaning up the CSS codebase. When the site was done I hooked up all necessary WordPress plugins and styled the email template.",
@@ -49,6 +55,7 @@
 			"img"        : "/img/project-hugseat.jpg"
 		},
 		{
+			"employer"   : "Saxum",
 			"title"      : "Wegwijzer Zilveren Kruis",
 			"intro"      : "Wegwijzer is a tool designed for the onboarding at Zilveren Kruis. It shows a collection of topics that are relevant to new customers, that can then be saved for future reference.",
 			"explanation": "During this project I was responsible for creating and styling components, as well as adding functionality to the application.",
@@ -57,35 +64,39 @@
 			"img"        : "/img/project-wegwijzer.jpg"
 		},
 		{
+			"employer"   : "Saxum",
 			"title"      : "Zilveren Kruis",
-			"intro"      : "",
-			"explanation": "",
+			"intro"      : "\"Raad en daad\". With 3.3 million insurees Zilveren Kruis is one of the largest Dutch health insurance companies on the market. With that many clients the wellbeing of their online infrastructure is becoming increasingly important. This drives their web-teams to constantly improve",
+			"explanation": "My responsibilities for the Zilveren Kruis website range from minor bugfixes to adding new features and even complete overhauls of the salesfunnel",
 			"link"       : "https://www.zilverenkruis.nl",
-			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ],
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery", "ReactJS" ],
 			"img"        : "/img/project-zilverenkruis.jpg"
 		},
 		{
+			"employer"   : "Saxum",
 			"title"      : "ZieZo",
-			"intro"      : "",
-			"explanation": "",
+			"intro"      : "ZieZo is the budget insurance from Zilveren Kruis. With students being their target audience, they focus more on online approachability.",
+			"explanation": "For ZieZo I was responsible for maintaining and adding to their salesfunnel, as well as solving site wide front-end related problems",
 			"link"       : "https://www.ziezo.nl",
-			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ],
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
 			"img"        : "/img/project-ziezo.jpg"
 		},
 		{
+			"employer"   : "Saxum",
 			"title"      : "De Friesland Zorgverzekeraar",
-			"intro"      : "",
-			"explanation": "",
+			"intro"      : "De Friesland Zorgverzekeraar is a Dutch insurance company with over half a million insurees primarily focused on Frisians. ",
+			"explanation": "At De Friesland I was responsible for implementing their re-branding. Most of the work went into their salesfunnel, with the rest of the site having a more conservative approach. Besides the re-branding I also worked on maintaining site and adding new features.",
 			"link"       : "https://www.defriesland.nl",
-			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ],
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
 			"img"        : "/img/project-defriesland.jpg"
 		},
 		{
+			"employer"   : "Saxum",
 			"title"      : "ProLife",
-			"intro"      : "",
-			"explanation": "",
+			"intro"      : "Prolife is a Christian health insurance company based in the Netherlands. ",
+			"explanation": "For Prolife I was responsible for maintaining and adding to their salesfunnel, as well as building new pages and fixing general bugs and issues.",
 			"link"       : "https://www.prolife.nl",
-			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript" ],
+			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
 			"img"        : "/img/project-prolife.jpg"
 		}
 	]
