@@ -25,16 +25,16 @@ class About extends Component {
 						the best result in projects. <br />
 						<br />
 						Currently employed by:
-						<a href="https://www.saxum.nl" target="_blank" rel="noopener noreferrer">
-							<b> Saxum</b>
+						<a href="https://www.saxum.nl" title="Saxum" aria-label="Visit the saxum website" target="_blank" rel="noopener noreferrer">
+							<strong> Saxum</strong>
 						</a>
 					</ContentBlock>
 					<ContentBlock title={ "skills" } italic={ true }>
 						HTML, CSS, SASS, JavaScript, React, Grunt, Gulp, WebPack
 					</ContentBlock>
 					<ContentBlock title={ "let's connect" } italic={ false }>
-						<a href="https://github.com/JonathanGarion" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-alt"></i></a>
-						<a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square"></i></a>
+						<a href="https://github.com/JonathanGarion" title="GitHub" aria-label="Visit my GitHub page" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-alt"></i></a>
+						<a href="https://www.linkedin.com/in/jonathan-kerkhoven-26683bab/" title="LinkedIn" aria-label="Visit my LinkedIn page" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square"></i></a>
 					</ContentBlock>
 				</div>
 			</section>

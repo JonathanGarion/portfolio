@@ -56,7 +56,7 @@ class Project extends Component {
 		}
 
 		return (
-			<section className={`project project__${open ? 'open' : 'closed'}`} style={{ backgroundImage: `url(${ data.img })` }}>
+			<section className={`project project__${open ? 'open' : 'closed'}`} style={{ backgroundImage: `url(/img${ data.img })` }}>
 				<ContentBlock title={ data.title } italic={ false } project={ true }>
 					{ hasContent(data.intro) ? <p>{ data.intro }</p> : null }
 					{ hasContent(data.explanation) ? <p>{ data.explanation }</p> : null }

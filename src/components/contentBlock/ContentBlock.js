@@ -20,7 +20,7 @@ class ContentBlock extends Component {
 				)
 			} else {
 				if(italic) {
-					return <ul>{ children }</ul>
+					return <ul><li>{ children }</li></ul>
 				} else {
 					return <p>{ children }</p>
 				}

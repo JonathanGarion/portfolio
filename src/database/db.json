@@ -7,7 +7,7 @@
 			"explanation": "During development of the site, besides being the scrummaster, I was responsible for setting up the grid in which the content could be set up in a simple way. Besides that I optimized the overal styling of the site, also keeping in mind browser compatibility, and made it responsive.",
 			"link"       : "www.ftsf.eu",
 			"skills"     : [ "HTML", "CSS", "Scss", "Gulp", "JavaScript", "October CMS", "Scrummaster" ],
-			"img"        : "/img/project-ftsf.jpg"
+			"img"        : "/project-ftsf.jpg"
 		},
 		{
 			"employer"   : "Competa",
@@ -16,7 +16,7 @@
 			"explanation": "Besides this I was also the scrum master of a team comprised of both Dutch and Kenyan members.",
 			"link"       : "http://www.codepamoja.com",
 			"skills"     : [ "HTML", "CSS", "Scss", "Grunt", "JavaScript", "WordPress", "Scrummaster" ],
-			"img"        : "/img/project-codepamoja.jpg"
+			"img"        : "/project-codepamoja.jpg"
 		},
 		{
 			"employer"   : "Competa",
@@ -25,7 +25,7 @@
 			"explanation": "When reworking the Competa website, I was responsible for converting the design into a theme that was WordPress compatible. Browser compatibility, user experience and responsiveness had a high priority.",
 			"link"       : "http://www.competa.com",
 			"skills"     : [ "HTML", "CSS", "Scss", "OxygenCSS", "Gulp", "WordPress" ],
-			"img"        : "/img/project-competa.jpg"
+			"img"        : "/project-competa.jpg"
 		},
 		{
 			"employer"   : "Competa",
@@ -34,7 +34,7 @@
 			"explanation": "During development of the webshop I was, among other things, responsible for setting up the Front-End structure and converting the design to views. These were then made functional in the Vue.js framework. Besides that I was also scrum master of a team of Front-End developers in training.",
 			"link"       : "",
 			"skills"     : [ "HTML", "CSS", "Scss", "WebPack", "JavaScript", "Vue JS", "Scrummaster" ],
-			"img"        : "/img/project-webshop.jpg"
+			"img"        : "/project-webshop.jpg"
 		},
 		{
 			"employer"   : "Competa",
@@ -43,7 +43,7 @@
 			"explanation": "",
 			"link"       : "",
 			"skills"     : [ "HTML", "CSS", "SCSS", "JavaScript", "MongoDB", "ExpressJS", "ReactJS", "Redux", "NodeJS", "WebPack" ],
-			"img"        : "/img/project-headcount.jpg"
+			"img"        : "/project-headcount.jpg"
 		},
 		{
 			"employer"   : "Competa",
@@ -52,7 +52,7 @@
 			"explanation": "My main responsibility was adding last minute functionality to the menu and shopping cart, streamlining the shopping experience and cleaning up the CSS codebase. When the site was done I hooked up all necessary WordPress plugins and styled the email template.",
 			"link"       : "https://www.hugseat.io/",
 			"skills"     : [ "HTML", "CSS", "JQuery", "JavaScript", "WordPress" ],
-			"img"        : "/img/project-hugseat.jpg"
+			"img"        : "/project-hugseat.jpg"
 		},
 		{
 			"employer"   : "Saxum",
@@ -61,7 +61,7 @@
 			"explanation": "During this project I was responsible for creating and styling components, as well as adding functionality to the application.",
 			"link"       : "https://www.zilverenkruis.nl",
 			"skills"     : [ "HTML", "CSS", "SCSS", "WebPack", "JavaScript", "ReactJS", "NodeJS", "contextAPI" ],
-			"img"        : "/img/project-wegwijzer.jpg"
+			"img"        : "/project-wegwijzer.jpg"
 		},
 		{
 			"employer"   : "Saxum",
@@ -70,7 +70,7 @@
 			"explanation": "My responsibilities for the Zilveren Kruis website range from minor bugfixes to adding new features and even complete overhauls of the salesfunnel",
 			"link"       : "https://www.zilverenkruis.nl",
 			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery", "ReactJS" ],
-			"img"        : "/img/project-zilverenkruis.jpg"
+			"img"        : "/project-zilverenkruis.jpg"
 		},
 		{
 			"employer"   : "Saxum",
@@ -79,7 +79,7 @@
 			"explanation": "For ZieZo I was responsible for maintaining and adding to their salesfunnel, as well as solving site wide front-end related problems",
 			"link"       : "https://www.ziezo.nl",
 			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
-			"img"        : "/img/project-ziezo.jpg"
+			"img"        : "/project-ziezo.jpg"
 		},
 		{
 			"employer"   : "Saxum",
@@ -88,7 +88,7 @@
 			"explanation": "At De Friesland I was responsible for implementing their re-branding. Most of the work went into their salesfunnel, with the rest of the site having a more conservative approach. Besides the re-branding I also worked on maintaining site and adding new features.",
 			"link"       : "https://www.defriesland.nl",
 			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
-			"img"        : "/img/project-defriesland.jpg"
+			"img"        : "/project-defriesland.jpg"
 		},
 		{
 			"employer"   : "Saxum",
@@ -97,7 +97,7 @@
 			"explanation": "For Prolife I was responsible for maintaining and adding to their salesfunnel, as well as building new pages and fixing general bugs and issues.",
 			"link"       : "https://www.prolife.nl",
 			"skills"     : [ "HTML", "CSS", "Less", "Grunt", "JavaScript", "jQuery" ],
-			"img"        : "/img/project-prolife.jpg"
+			"img"        : "/project-prolife.jpg"
 		}
 	]
 }

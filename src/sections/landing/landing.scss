@@ -12,6 +12,15 @@
 		}
 	}
 
+	.dot {
+		display: inline-block;
+		background-color: $white;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		margin-left: 3px;
+	}
+
 	&:before {
 		content: '';
 		display: block;
