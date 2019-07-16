@@ -70,7 +70,7 @@ class Project extends Component {
 				<ContentBlock title={ "used skills" } italic={ true }>
 					{ getSkills() }
 				</ContentBlock>
-				<button className="project__button" onClick={ e => toggleProject() }></button>
+				<button className="project__button" onClick={ e => toggleProject() } onTouchStart={ e => toggleProject() }></button>
 			</section>
 		);
 	}
